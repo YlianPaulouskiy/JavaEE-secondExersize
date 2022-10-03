@@ -1,6 +1,5 @@
-package edu.step.run;
+package edu.step;
 
-import edu.step.view.View;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -9,8 +8,8 @@ public class Run {
 
     public static void main(String[] args) {
 
-//        SpringApplication.run(Run.class, args);
-        new View().view();
+        SpringApplication.run(Run.class, args);
+
     }
 
 }

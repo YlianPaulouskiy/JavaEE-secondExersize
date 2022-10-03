@@ -14,16 +14,8 @@
     <dependencies>
         <dependency>
             <groupId>edu.step</groupId>
-            <artifactId>service</artifactId>
+            <artifactId>dao</artifactId>
             <version>0.0.1-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>edu.step</groupId>
-            <artifactId>model</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-            <scope>compile</scope>
         </dependency>
     </dependencies>
 

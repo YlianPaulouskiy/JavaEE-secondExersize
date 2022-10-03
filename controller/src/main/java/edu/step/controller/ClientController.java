@@ -1,7 +1,6 @@
 package edu.step.controller;
 
 import edu.step.model.Client;
-import edu.step.model.Tariff;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Set;

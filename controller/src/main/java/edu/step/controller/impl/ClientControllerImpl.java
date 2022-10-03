@@ -2,16 +2,12 @@ package edu.step.controller.impl;
 
 import edu.step.controller.ClientController;
 import edu.step.model.Client;
-import edu.step.model.Tariff;
 import edu.step.service.ClientService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.Comparator;
-import java.util.LinkedHashSet;
 import java.util.Set;
-import java.util.stream.Collectors;
 
 @AllArgsConstructor
 @RestController
