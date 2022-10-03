@@ -20,7 +20,7 @@ public class Client extends BaseEntity {
     private Address address;
 
     @OneToMany(mappedBy = "client", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-    private List<Number> numberList;
+    private List<Phone> phoneList;
 
 
 }

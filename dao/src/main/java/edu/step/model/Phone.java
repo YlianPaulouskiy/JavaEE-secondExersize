@@ -10,7 +10,7 @@ import javax.persistence.*;
 @EqualsAndHashCode(callSuper = true)
 @Data
 @Entity
-public class Number extends BaseEntity {
+public class Phone extends BaseEntity {
 
     private String countryCode;
     private String operatorCode;
