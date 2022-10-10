@@ -1,4 +1,4 @@
-package edu.step.dto.clientDto;
+package edu.step.dto.tariffDto;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.tags.Tag;
@@ -7,15 +7,11 @@ import lombok.EqualsAndHashCode;
 
 
 @EqualsAndHashCode(callSuper = true)
-@Data
 @Tag(name = "", description = "")
-public class ClientDtoWithIdAndDate extends ClientDto {
+@Data
+public class TariffDtoWithId extends TariffDto {
 
     @Schema(name = "", description = "")
     private Long id;
-    @Schema(name = "", description = "")
-    private String dateAdded;
-    @Schema(name = "", description = "")
-    private String dateUpdate;
 
 }

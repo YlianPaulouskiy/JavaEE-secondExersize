@@ -11,13 +11,13 @@ import java.util.List;
 @EqualsAndHashCode(callSuper = true)
 @Entity
 @Data
-
 public class Client extends BaseEntity {
 
     private String name;
     private String lastName;
     private String patronymic;
     private Date dateAdded;
+    private Date dateUpdate;
 
     @OneToOne(mappedBy = "client", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     private Address address;

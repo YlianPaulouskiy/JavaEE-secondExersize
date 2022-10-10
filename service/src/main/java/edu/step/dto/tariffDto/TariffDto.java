@@ -2,29 +2,19 @@ package edu.step.dto.tariffDto;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.tags.Tag;
-import lombok.Getter;
+import lombok.Data;
 
-@Getter
+@Data
 @Tag(name = ",", description = ",")
-public enum TariffDto {
-
-    EASY_TARIFF(" EASY", 300, 5000, 12.5),
-    UNLIMITED_CALLS_TARIFF("CALLS", 2000, 1000, 15.0),
-    UNLIMITED_INTERNET_TARIFF("INTERNET", 200, 10000, 20.0);
+public class TariffDto {
 
     @Schema(name = "", description = "")
-    private final String title;
+    private String title;
     @Schema(name = "", description = "")
-    private final Integer minutes;
+    private Integer minutes;
     @Schema(name = "", description = "")
-    private final Integer megaBytes;
+    private Integer megaBytes;
     @Schema(name = "", description = "")
-    private final Double price;
+    private Double price;
 
-    TariffDto(String title, Integer minutes, Integer megaBytes, Double price) {
-        this.title = title;
-        this.minutes = minutes;
-        this.megaBytes = megaBytes;
-        this.price = price;
-    }
 }
